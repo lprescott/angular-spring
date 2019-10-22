@@ -37,25 +37,25 @@ Server Build Tools| Maven(Java)                                                 
 .
 │  README.md
 └──[angular]
-|  │  package.json
-|  │  angular-cli.json                 #ng build configurations
-|  └──[node_modules]
-|  └──[src]                            #Frontend source files
-|  └──[dist]                           #Frontend build files, auto-created after running angular build: ng -build
-|
+│  │  package.json
+│  │  angular-cli.json                 #ng build configurations
+│  └──[node_modules]
+│  └──[src]                            #Frontend source files
+│  └──[dist]                           #Frontend build files, auto-created after running angular build: ng -build
+│
 └──[spring]
-   |  HELP.md                          #Resources for Spring Boot
-   |  pom.xml
-   |  mvnw                             #Maven compiliation for Linux Bash
-   |  mvnw.cmd                         # '' for Windows environment
+   │  HELP.md                          #Resources for Spring Boot
+   │  pom.xml
+   │  mvnw                             #Maven compiliation for Linux Bash
+   │  mvnw.cmd                         # '' for Windows environment
    └──[src]
-   |  └──[main]
-   |     └──[java]
-   |     └──[resources]
-   |        │  application.properties  #Contains Spring Boot cofigurations
-   |        └──[static]
-   |        └──[templates]
-   |
+   │  └──[main]
+   │     └──[java]
+   │     └──[resources]
+   │        │  application.properties  #Contains Spring Boot cofigurations
+   │        └──[static]
+   │        └──[templates]
+   │
    └──[target]                         #Java build files, auto-created after running java build: mvn install
       └──[classes]
       └──[public]
