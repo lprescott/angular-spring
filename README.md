@@ -14,10 +14,25 @@ The goal of the project is to:
 
 - Java 11
 - Maven 3.6.0
-- Node v10.16.3  
+- Node v10.16.3
 - npm 6.12
 - Angular-cli 8.3.12
-- MySQL & Community Server
+- MySQL, Connector/J & Community Server
+
+## Getting Started
+
+Navigate to where you want your project to be contained.
+
+```bash
+git clone https://github.com/lprescott/angular-spring
+cd angular-spring/angular
+npm install             # Install javascript package requirements
+ng build                # Build the Angular Frontend  
+cd ../spring    
+mvn spring-boot:run     #Build and run Spring Boot Backend
+```
+
+Happy coding!
 
 ## Technology Stack
 
