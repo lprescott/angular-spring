@@ -28,3 +28,6 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Angular Output Directory ###
+/src/main/resources/static/
