@@ -29,10 +29,10 @@ cd angular-spring/angular
 npm install             # Install javascript package requirements
 ng build                # Build the Angular Frontend  
 cd ../spring    
-mvn spring-boot:run     #Build and run Spring Boot Backend
+mvn spring-boot:run     # Build and run Spring Boot Backend
 ```
 
-Happy coding!
+Navigate to http://localhost:8080/. Happy coding!
 
 ## Technology Stack
 
