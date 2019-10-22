@@ -17,6 +17,7 @@ The goal of the project is to:
 - Node v10.16.3  
 - npm 6.12
 - Angular-cli 8.3.12
+- MySQL & Community Server
 
 ## Technology Stack
 
@@ -59,3 +60,9 @@ Server Build Tools| Maven(Java)                                                 
       └──[classes]
       └──[public]
 ```
+
+## Other Resources
+
+See [HELP.md](spring/HELP.md) for helpful documentation regarding Spring Boot and [README.md](angular/README.md) for important commands and documentation relating to Angular and its embedded server. 
+
+- I used [gitignore.io](https://www.gitignore.io/) to generate [_this_](.gitignore) gitignore file but otherwise used predefined defaults.
