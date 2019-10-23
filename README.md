@@ -16,7 +16,7 @@ The goal of the project is to:
 - Maven 3.6.0
 - Node v10.16.3
 - npm 6.12
-- Angular-cli 8.3.12
+- Angular-cli 8.3.13
 - MySQL, Connector/J & Community Server
 
 ## Getting Started

@@ -5,7 +5,11 @@
   "projects": {
     "angular": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "sass"
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -24,7 +28,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.sass"
             ],
             "scripts": []
           },
@@ -89,7 +93,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.sass"
             ],
             "scripts": []
           }
