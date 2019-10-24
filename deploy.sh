@@ -1,10 +1,15 @@
+# Change directory to frontend location.
 cd angular
-echo "Checking frontend dependencies:"
+
+# By default, npm install will install all modules listed as dependencies in package.json.
 npm install
 
-echo "Building frontend:"
+# Compiles an Angular app into an output directory named dist/ at the given output path.
+# Must be executed from within a workspace directory.
 ng build
 
+# Change directory to backend location.
 cd ../spring
-echo "Building and deploying backend to http://localhost:8080/ (press Ctrl+C to stop Tomcat Server):"
+
+# Run an executable archive application.
 mvn spring-boot:run
