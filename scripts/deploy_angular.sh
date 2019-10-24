@@ -8,7 +8,7 @@ cd "$(dirname "$0")"
 
 # Change directory to frontend location.
 # shellcheck disable=SC2154
-cd "../${frontend_module}" || exit
+cd "../$frontend_module" || exit
 
 # By default, npm install will install all modules listed as dependencies in package.json.
 npm install

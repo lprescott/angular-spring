@@ -8,7 +8,7 @@ cd "$(dirname "$0")"
 
 # Change directory to backend location.
 # shellcheck disable=SC2154
-cd "../${backend_module}" || exit
+cd "../$backend_module" || exit
 
 # Package using defaults.
 mvn package
