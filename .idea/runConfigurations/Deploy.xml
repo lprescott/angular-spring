@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Deploy All" type="ShConfigurationType">
+  <configuration default="false" name="Deploy" type="ShConfigurationType">
     <option name="SCRIPT_PATH" value="$PROJECT_DIR$/scripts/deploy.sh" />
     <option name="SCRIPT_OPTIONS" value="" />
     <option name="INTERPRETER_PATH" value="/bin/bash" />
