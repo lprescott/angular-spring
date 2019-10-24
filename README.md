@@ -31,7 +31,12 @@ ng build                # Build the Angular Frontend
 cd ../spring    
 mvn spring-boot:run     # Build and run Spring Boot Backend
 ```
+_Or_
 
+```bash
+git clone https://github.com/lprescott/angular-spring
+scripts/deploy.sh
+```
 Navigate to http://localhost:8080/. Happy coding!
 
 ## Technology Stack
