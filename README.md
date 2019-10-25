@@ -61,7 +61,8 @@ Server Build Tools| Maven(Java)                                                 
 │  └──[bash]
 │     │  deploy.cfg                    #If changing module names, update variables in this file.
 │     │  deploy.sh                     #Build and deploy all.
-│     │  deploy_angular.sh       
+│     │  deploy_angular.sh     
+│     │  develop.sh                    # Requires moreutils package, but should live-reload front and backend.
 │     │  deploy_spring.sh
 │     └──package.sh                    #Package using defaults.
 │
