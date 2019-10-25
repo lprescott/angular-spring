@@ -41,7 +41,7 @@ Navigate to http://localhost:8080/. Happy coding!
 
 ### Workflow
 
-I have found that using ```develop.sh``` can sometimes cause bugs, and do to the requirement of the moreutils package I
+I have found that using ```develop.sh``` can sometimes cause bugs, and due to the requirement of the moreutils package I
 recommend that upon starting the project one opens two terminals:
 
 1. Use ```./angular/ng build --watch``` to continuously build to ```./spring/src/main/resources/static``` by watching for file changes.
