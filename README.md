@@ -57,11 +57,13 @@ Server Build Tools| Maven(Java)                                                 
 .
 │  README.md
 └──[scripts]
-│  │  deploy.cfg                       #If changing module names, update variables in this file.
-│  │  deploy.sh                        #Build and deploy all.
-│  │  deploy_angular.sh       
-│  │  deploy_spring.sh
-│  └──package.sh                       #Package using defaults.
+│  └──[sql]
+│  └──[bash]
+│     │  deploy.cfg                    #If changing module names, update variables in this file.
+│     │  deploy.sh                     #Build and deploy all.
+│     │  deploy_angular.sh       
+│     │  deploy_spring.sh
+│     └──package.sh                    #Package using defaults.
 │
 └──[angular]
 │  │  package.json
