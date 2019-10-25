@@ -46,7 +46,7 @@ recommend that upon starting the project one opens two terminals:
 
 1. Use ```./angular/ng build --watch``` to continuously build to ```./spring/src/main/resources/static``` by watching for file changes.
 2. Use ```./spring/mvn spring-boot:run``` to continuously serve Spring Boot with LiveReload enabled to http://localhost:8080/.
-    - Note that Spring Boot's DevTools has already been configured to watch for changes under ```./spring/src/main/resources/static```.
+    - Note that Spring Boot's DevTools has already been configured to watch for changes under ```./spring/src/main/resources/static``` and Angular has been configured to build there.
 
 ## Technology Stack
 
