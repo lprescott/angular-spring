@@ -173,3 +173,6 @@ buildNumber.properties
 .history
 
 # End of https://www.gitignore.io/api/java,maven,java-web,intellij,visualstudiocode
+
+# Ignores Angular build output
+src/main/resources/static/
