@@ -118,3 +118,12 @@ See [HELP.md](spring/HELP.md) for helpful documentation regarding Spring Boot an
 
 - I used [gitignore.io](https://www.gitignore.io/) to generate [_this_](.gitignore) gitignore file but otherwise used predefined defaults.
 - [LiveReload](http://livereload.com/extensions/) and your browser of choice.
+
+### Documentation
+
+- [Spring Boot](https://docs.spring.io/spring-boot/docs/current/reference/html/using-spring-boot.html)
+- [Angular](https://angular.io/docs)
+- [Java 11](https://docs.oracle.com/en/java/javase/11/)
+- [Javascript ES6](https://devdocs.io/javascript/)
+- [Mozilla Docs](https://developer.mozilla.org/en-US/docs/Web)
+
