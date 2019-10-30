@@ -38,9 +38,9 @@ git clone https://github.com/lprescott/angular-spring
 scripts/build_angular.sh
 script/deploy_spring.sh
 ```
-Navigate to http://localhost:8080/. You should see Angular's welcome screen.
 
-### Workflow
+### Workflow 
+#### without Spring Security
 
 In one terminal call:
 ```bash
@@ -50,6 +50,19 @@ In another:
 ```bash
 scripts/deploy_spring.sh
 ```
+Navigate to http://localhost:4200.
+
+#### with Spring Security
+
+In one terminal call:
+```bash
+scripts/build_angular_watch.sh
+```
+In another:
+```bash
+scripts/deploy_spring.sh
+```
+Navigate to http://localhost:8080.
 
 ## Technology Stack
 
