@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Develop" type="ShConfigurationType">
-    <option name="SCRIPT_PATH" value="$PROJECT_DIR$/scripts/bash/develop.sh" />
+  <configuration default="false" name="Deploy Spring" type="ShConfigurationType">
+    <option name="SCRIPT_PATH" value="$PROJECT_DIR$/scripts/bash/deploy_spring.sh" />
     <option name="SCRIPT_OPTIONS" value="" />
     <option name="INTERPRETER_PATH" value="/bin/bash" />
     <option name="INTERPRETER_OPTIONS" value="" />
