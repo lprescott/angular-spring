@@ -10,6 +10,6 @@ export class AppComponent {
   title = 'Demo';
   greeting = {};
   constructor(private http: HttpClient) {
-    http.get('/api/hello_world').subscribe(data => this.greeting = data);
+    http.get('resource').subscribe(data => this.greeting = data);
   }
 }

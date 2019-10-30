@@ -39,6 +39,10 @@ scripts/build_angular.sh
 script/deploy_spring.sh
 ```
 
+### Serving from Tomcat
+Check this [file](angular/src/proxy.conf.json) for details pertaining to accessing Tomcat (on port 8080) from the Webpack Server (on port 4200). This template defaults to redirecting
+http calls under the directory ```/api/*``` to localhost:8080.
+    
 ### Workflow 
 ##### Version 1
 Generally, when **working without Spring Security** you can serve the front end and the backend developer servers at the same time. 
