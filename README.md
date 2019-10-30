@@ -40,19 +40,21 @@ script/deploy_spring.sh
 ```
 
 ### Workflow 
+##### Version 1
 Generally, when **working without Spring Security** you can serve the front end and the backend developer servers at the same time. 
 
 In one terminal call: ```scripts/deploy_angular.sh```
 and then in another: ```scripts/deploy_spring.sh```
 
-Navigate to http://localhost:4200.
+Use: http://localhost:4200.
 
-Generally, when **working with Spring Security** you can build the frontend and then serve the backend developer server. Supply ```ng build``` with the ```--watch``` argument allows for node to rebuild upon noticing changes in the frontend, effectively giving the same outcome. 
+##### Version 2
+However, when **working with Spring Security** (or you have some other reason to use the backend to serve your static files) you can build the frontend and then serve the backend developer server. Supply ```ng build``` with the ```--watch``` argument allows for node to rebuild upon noticing changes in the frontend, effectively giving the same outcome. 
 
 In one terminal call: ```scripts/build_angular_watch.sh```
 and then in another: ```scripts/deploy_spring.sh```
 
-Navigate to http://localhost:8080.
+Use: http://localhost:8080.
 
 ## Technology Stack
 
