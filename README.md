@@ -35,8 +35,8 @@ _Or_
 
 ```bash
 git clone https://github.com/lprescott/angular-spring
-scripts/build_angular.sh
-script/deploy_spring.sh
+scripts/build_angular.sh (build_angular.bat if on windows)
+script/deploy_spring.sh (deploy_spring.bat if on windows)
 ```
 
 ### Serving from Tomcat
@@ -47,16 +47,16 @@ http calls under the directory ```/api/*``` to localhost:8080.
 ##### Version 1
 Generally, when **working without Spring Security** you can serve the front end and the backend developer servers at the same time. 
 
-In one terminal call: ```scripts/deploy_angular.sh```
-and then in another: ```scripts/deploy_spring.sh```
+In one terminal call: ```scripts/deploy_angular.sh``` or ```scripts/deploy_angular.bat``` if on Windows
+and then in another: ```scripts/deploy_spring.sh```or ```scripts/deploy_spring.bat```
 
 Use: http://localhost:4200.
 
 ##### Version 2
 However, when **working with Spring Security** (or you have some other reason to use the backend to serve your static files) you can build the frontend and then serve the backend developer server. Supply ```ng build``` with the ```--watch``` argument allows for node to rebuild upon noticing changes in the frontend, effectively giving the same outcome. 
 
-In one terminal call: ```scripts/build_angular_watch.sh```
-and then in another: ```scripts/deploy_spring.sh```
+In one terminal call: ```scripts/build_angular_watch.sh``` or ```scripts/build_angular_watch.bat``` if on Windows
+and then in another: ```scripts/deploy_spring.sh``` or ```scripts/deploy_spring.bat```
 
 Use: http://localhost:8080.
 
@@ -79,13 +79,10 @@ Server Build Tools| Maven(Java)                                                 
 │  README.md
 └──[scripts]
 │  └──[sql]
-│  └──[bash]
-│     │  deploy.cfg                    #If changing module names, update variables in this file.
-│     │  deploy.sh                     #Build and deploy all.
-│     │  deploy_angular.sh     
-│     │  develop.sh                    # Requires moreutils package, but should live-reload front and backend.
-│     │  deploy_spring.sh
-│     └──package.sh                    #Package using defaults.
+│  └──[bash]                           #Linux or MacOS
+│  │  └──deploy.cfg                    #If changing module names, update variables in this file.
+│  └──[batch]                          #Windows OS
+│     └──deploy.cfg                    # Same as above.
 │
 └──[angular]
 │  │  package.json
