@@ -1,5 +1,4 @@
-package com.example.spring.note.model;
-
+package com.example.spring.user.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -18,14 +17,14 @@ import javax.persistence.Id;
 
 @Data               // All together now: A shortcut for @ToString, @EqualsAndHashCode, @Getter on all fields, and
                     // @Setter on all non-final fields, and @RequiredArgsConstructor!
-public class Note {
+public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @NonNull
-    private String title;
+    private String username;
 
     @NonNull
-    private String text;
+    private String password;
 }
