@@ -495,3 +495,5 @@ MigrationBackup/
 # End of https://www.gitignore.io/api/git,java,maven,intellij,visualstudio
 
 spring/src/main/resources/static/
+
+.classpath
