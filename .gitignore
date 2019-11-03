@@ -497,3 +497,7 @@ MigrationBackup/
 spring/src/main/resources/static/
 
 .classpath
+
+.idea/codeStyles/Project.xml
+
+.settings/
